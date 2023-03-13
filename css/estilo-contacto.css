@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face{
+    font-family: bohemian soul;
+    src: url(Bohemian Soul.otf);
+}
+
+body{
+    background-color: #212121;
+}
+
+input, textarea{
+    border: 0;
+    outline: none;
+}
+
+.field-form{
+    border: none;
+    border-radius: 10px;
+    width: 518px;
+}
+.field-mensaje{
+    border: none;
+    border-radius: 10px;
+    width: 518px;
+}
+.formulario{
+    width: 600px;
+    border-radius: 10px;
+    margin: auto;
+    border: solid 2px #fea6be;
+}
+h1{
+    font-family: bohemian soul;
+    font-size: 2rem;
+    text-align: center;
+    color: #fea6be;
+    font-weight: normal;
+}
+div{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color: #fea6be;
+    
+}
+fieldset{
+    border-radius: 10px;
+    border-color: #fea6be;
+    padding: 20px;
+    margin: 20px;
+}
+.boton-formulario{
+    background-color: #fc5b86;
+    color: #ffffff;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-radius: 4rem;
+    width: 50%;
+    text-align: center;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    width: 200px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.boton :hover{
+    cursor: pointer;
+}
+/*estilo del menu*/
+nav{
+    background-color: #fea6be;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.menu{
+    list-style: none;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+}
+.menu li{
+    display: inline-block;
+}
+.menu li a{
+    padding: 20px;
+    margin: 15px;
+    text-decoration: none;
+    display: inline-block;
+    color: black;
+    font-weight: bolder;
+}
+.menu li a:hover{
+    color: #fea6be;
+    background-color: #871f44;
+    border-radius: 50px;
+}
+/*fin estilo del menu*/
+.positions{
+    position: relative;
+}
+.whatsapp{
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+}
+
+footer{
+    background-color: #340c1a;
+    padding: 40px;
+    margin: auto;
+    color: #fea6be;
+    display: flex;
+    flex-direction: row;
+    align-items: normal;
+    justify-content: center;
+}
+.final{
+    font-weight: normal;
+}
+.card_informacion{
+    width: 600px;
+    padding: .8rem;
+    font-display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    
+}
+.medios{
+    font-size: 1.2rem;
+    font-family: bohemian soul;
+}
+.card__redes{
+    width: 40px;
+}
+.medios-de-pago{
+    width: 50px;
+    margin: 1px;
+}
+.contacto{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+}
+/*NOVEDADES*/
+
+.newsletter{
+    background-color: #871f44;
+    padding: 10px;
+    font-display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.email{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.novedades{
+    color: #ffffff;
+    font-family: 'Poppins' , sans-serif;
+    font-weight: bolder;
+    font-size: 1.1rem;
+    margin: 1rem;
+    text-align: center;
+}
+input, textarea{
+    border: 0;
+    outline: none;
+}
+.field{
+    border: none;
+    border-radius: 6px;
+    height: 40px;
+    width: 300px;
+    margin: 1rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: .9rem;
+}
+.boton{
+    background-color: #fea6be;
+    color: #ffffff;
+    border-radius: 6px;
+    padding: 6px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    width: 90px;
+    height: 40px;
+    text-align: center;
+    border: none;
+}
+/*FIN NOVEDADES*/
