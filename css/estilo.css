@@ -34,35 +34,28 @@ h5{
     position: fixed;
     bottom: 15px;
     right: 15px;
+    display: flex;
 }
 /*estilo del menu*/
 nav{
     background-color: #fea6be;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
 }
 .menu{
-    list-style: none;
-    text-align: center;
     font-family: 'Poppins', sans-serif;
     font-size: 1rem;
 }
-.menu li{
-    display: inline-block;
-}
 .menu li a{
-    padding: 20px;
-    margin: 15px;
+    margin: 8px;
     text-decoration: none;
     display: inline-block;
     color: black;
     font-weight: bolder;
+    border-radius: 30px;
 }
 .menu li a:hover{
     color: #fea6be;
     background-color: #871f44;
-    border-radius: 50px;
+    border-radius: 30px;
 }
 /*fin estilo del menu*/
 main{
@@ -71,43 +64,42 @@ main{
     justify-content: center;
 }
 /*Estilo de la card*/
+
 .card{
-    width: 300px;
     background-color: #ffffff;
-    padding: .8rem;
-    font-display: flex;
-    flex-direction: column;
-    border-radius: 6px;
-    margin: 1rem;
-    border: solid #fea6be 4px;
 }
 .card__titulo{
-    font-size: 1.1rem;
-    text-align: center;
     font-family: 'Poppins', sans-serif;
     font-weight: bolder;
-}
-.card__caja-imagen{
-    display: flex;
-    flex-direction: column;
+    color: black;
+    font-size: 0.9rem;
 }
 
 .card__boton{
     background-color: #fea6be;
     border-radius: 16px;
     padding: 8px;
-    margin-top: 10px;
+    margin-top: 30px;
     border: none;
     font-family: 'Poppins', sans-serif;
     font-weight: bolder;
+    color: black;
+    display: flex;
+    justify-content: center;
 }
-
+a{
+    text-decoration: none;
+}
 footer{
     background-color: #340c1a;
     padding: 40px;
     margin: auto;
     font-family: bohemian soul;
     color: #fea6be;
+    display: flex;
+    flex-direction: row;
+    align-items: normal;
+    justify-content: center;
 }
 .final{
     font-weight: normal;
@@ -116,12 +108,12 @@ footer{
     width: 600px;
     padding: .8rem;
     font-display: flex;
-    flex-direction: column;
+    flex-direction: row;
     margin: 1rem;
-    
 }
 .medios{
     font-size: 1.2rem;
+    font-family: bohemian soul;
 }
 .card__redes{
     width: 40px;
