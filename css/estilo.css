@@ -2,12 +2,12 @@
     margin: 0;
     padding: 0;
 }
+body{
+    background-color: #212121;
+}
 @font-face {
     font-family: bohemian soul;
     src: url(Bohemian Soul.otf);
-}
-body{
-    background-color: #212121;
 }
 .titulo{
     color: #fea6be;
@@ -90,17 +90,6 @@ main{
 a{
     text-decoration: none;
 }
-footer{
-    background-color: #340c1a;
-    padding: 40px;
-    margin: auto;
-    font-family: bohemian soul;
-    color: #fea6be;
-    display: flex;
-    flex-direction: row;
-    align-items: normal;
-    justify-content: center;
-}
 .final{
     font-weight: normal;
 }
@@ -176,3 +165,40 @@ input, textarea{
     border: none;
 }
 /*FIN NOVEDADES*/
+.pie-pagina{
+    width: 100%;
+    background-color: #340c1a;
+}
+.pie-pagina .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+}
+.pie-pagina .grupo-1 .box h4{
+    color: #fea6be;
+    font-family: Bohemian Soul;
+    margin-bottom: 25px;
+    font-size: 18px;
+}
+.pie-pagina .grupo-1 .box h6{
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+}
+.pie-pagina .grupo-2{
+    background-color: #2d0a16;
+    padding: 15px 10px;
+    text-align: center;
+    color: #ffffff;
+}
+@media screen and (max-widht: 800px){
+    .pie-pagina .grupo-1{
+        width: 80%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px;
+        padding: 35px 0px;
+    }    
+}

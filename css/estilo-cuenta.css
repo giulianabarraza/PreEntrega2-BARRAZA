@@ -7,88 +7,34 @@
     src: url(Bohemian Soul.otf);
 }
 body{
-    background-color: #212121;
+    background-image: url(/imágenes/fondo.png);
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
 /*estilo del menu*/
 nav{
     background-color: #fea6be;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
 }
 .menu{
-    list-style: none;
-    text-align: center;
     font-family: 'Poppins', sans-serif;
     font-size: 1rem;
 }
-.menu li{
-    display: inline-block;
-}
 .menu li a{
-    padding: 20px;
-    margin: 15px;
+    margin: 8px;
     text-decoration: none;
     display: inline-block;
     color: black;
     font-weight: bolder;
+    border-radius: 30px;
 }
 .menu li a:hover{
     color: #fea6be;
     background-color: #871f44;
-    border-radius: 50px;
+    border-radius: 30px;
 }
 /*fin estilo del menu*/
-input, textarea{
-    border: 0;
-    outline: none;
-}
-.field-form{
-    border: none;
-    border-radius: 10px;
-    width: 518px;
-    height: 30px;
-}
-.formulario{
-    width: 600px;
-    border-radius: 10px;
-    margin: auto;
-    border: solid 2px #fea6be;
-}
-h1{
-    font-family: bohemian soul;
-    font-size: 2rem;
-    text-align: center;
-    color: #fea6be;
-    font-weight: normal;
-}
-div{
-    font-family: 'Poppins', sans-serif;
-    font-weight: bold;
-    color: #fea6be;
-}
-fieldset{
-    border-radius: 10px;
-    border-color: #fea6be;
-    padding: 20px;
-    margin: 20px;
-}
-.boton-formulario{
-    background-color: #fc5b86;
-    color: #ffffff;
-    font-size: 1.2rem;
-    font-weight: bold;
-    border-radius: 4rem;
-    width: 70%;
-    text-align: center;
-    border: none;
-    font-family: 'Poppins', sans-serif;
-    width: 200px;
-    margin: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 .boton :hover{
     cursor: pointer;
 }
@@ -100,16 +46,7 @@ fieldset{
     bottom: 15px;
     right: 15px;
 }
-footer{
-    background-color: #340c1a;
-    padding: 40px;
-    margin: auto;
-    color: #fea6be;
-    display: flex;
-    flex-direction: row;
-    align-items: normal;
-    justify-content: center;
-}
+
 .final{
     font-weight: normal;
 }
@@ -185,3 +122,103 @@ input, textarea{
     border: none;
 }
 /*FIN NOVEDADES*/
+.pie-pagina{
+    width: 100%;
+    background-color: #340c1a;
+}
+.pie-pagina .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+}
+.pie-pagina .grupo-1 .box h4{
+    color: #fea6be;
+    font-family: Bohemian Soul;
+    margin-bottom: 25px;
+    font-size: 18px;
+}
+.pie-pagina .grupo-1 .box h6{
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+}
+.pie-pagina .grupo-2{
+    background-color: #2d0a16;
+    padding: 15px 10px;
+    text-align: center;
+    color: #ffffff;
+}
+@media screen and (max-widht: 800px){
+    .pie-pagina .grupo-1{
+        width: 80%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px;
+        padding: 35px 0px;
+    }    
+}
+h1{
+    text-align: center;
+    font-family: Bohemian Soul;
+    color: #fea6be;
+    font-size: 40px;
+}
+*{
+    box-sizing: border-box;
+}
+.contenedor{
+    width: 100%;
+    padding: 15px;
+}
+.formulario{
+    background-color: #212121;
+    padding: 3px;
+    border-radius: 10px;
+}
+input[type="text"],
+input[type="password"]{
+    font-size: 14px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    border: none;
+}
+.input-contenedor{
+    margin-bottom: 15px;
+}
+.button{
+    border: none;
+    width: 100%;
+    color: #000;
+    font-size: 20px;
+    background-color: #fea6be;
+    border-radius: 20px;
+    padding: 15px 20px;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: #871f44;
+    color: #ffffff;
+}
+p{
+    text-align: center;
+    color: #ffffff;
+}
+.link{
+    text-decoration: none;
+    color: #fea6be;
+    font-weight: 600;
+}
+.link:hover{
+    color: #871f44;
+}
+@media(min-widht: 768px){
+    .formulario{
+        margin: auto;
+        width: 500px;
+        margin-top: 150px;
+        border-radius: 10%;
+    }
+}
