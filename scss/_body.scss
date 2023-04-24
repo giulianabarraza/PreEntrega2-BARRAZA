@@ -1,0 +1,16 @@
+.body1 {
+	background-color: #212121;
+}
+.body2{
+    background-image: url(/imágenes/fondo.png);
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+.body3{
+    background-image: url(/imágenes/fondito.png);
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+}

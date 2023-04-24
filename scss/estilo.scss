@@ -1,0 +1,116 @@
+@import "body";
+@import "header";
+@import "footer";
+@import "animacion";
+
+* {
+	margin: 0;
+	padding: 0;
+}
+main {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.card {
+	background-color: #ffffff;
+}
+.card__titulo {
+	font-family: 'Poppins', sans-serif;
+	font-weight: bolder;
+	color: black;
+	font-size: 0.9rem;
+}
+.card__boton {
+	background-color: #fea6be;
+	border-radius: 16px;
+	padding: 8px;
+	margin-top: 30px;
+	border: none;
+	font-family: 'Poppins', sans-serif;
+	font-weight: bolder;
+	color: black;
+	display: flex;
+	justify-content: center;
+}
+a {
+	text-decoration: none;
+}
+.breadcrumb {
+	background-color: #fabdcd;
+	color: #ffffff;
+}
+.breadcrumb2 {
+	color: #871f44;
+	font-weight: bolder;
+	margin-left: 10px;
+}
+h1{
+    text-align: center;
+    font-family: Bohemian Soul;
+    color: #fea6be;
+    font-size: 30px;
+}
+* {
+	box-sizing: border-box;
+}
+.contenedor {
+	width: 100%;
+	padding: 15px;
+}
+.formulario {
+	background-color: #212121;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 300px;
+	border-radius: 10px;
+    margin-top: 2rem;
+}
+input[type="text"],
+input[type="password"] {
+	font-size: 14px;
+	width: 100%;
+	padding: 10px;
+	border-radius: 4px;
+	border: none;
+}
+.input-contenedor {
+	margin-bottom: 15px;
+}
+.button {
+	border: none;
+	width: 100%;
+	color: #000;
+	font-size: 20px;
+	background-color: #fea6be;
+	border-radius: 20px;
+	padding: 15px 20px;
+	cursor: pointer;
+	&:hover {
+		background-color: #871f44;
+		color: #ffffff;
+	}
+}
+p {
+	text-align: center;
+	color: #ffffff;
+}
+.link {
+	text-decoration: none;
+	color: #fea6be;
+	font-weight: 600;
+	&:hover {
+		color: #871f44;
+	}
+}
+@media(min-widht: 600px){
+    .formulario{
+        margin: auto;
+        width: 500px;
+        margin-top: 150px;
+        border-radius: 10%;
+    }
+}
+

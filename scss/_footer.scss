@@ -1,0 +1,97 @@
+.final {
+	font-weight: normal;
+}
+.card_informacion {
+	width: 600px;
+	padding: .8rem;
+	font-display: flex;
+	flex-direction: row;
+	margin: 1rem;
+}
+.medios {
+	font-size: 1.2rem;
+	font-family: bohemian soul;
+}
+.card__redes {
+	width: 40px;
+}
+.medios-de-pago {
+	width: 50px;
+	margin: 1px;
+}
+.contacto {
+	font-family: 'Poppins', sans-serif;
+	font-size: 1rem;
+}
+.pie-pagina {
+	width: 100%;
+	background-color: #340c1a;
+	margin-top: 7rem;
+	.grupo-1 {
+		width: 100%;
+		max-width: 1200px;
+		margin: auto;
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		grid-gap: 50px;
+		padding: 45px 0px;
+		.box {
+			h4 {
+				color: #fea6be;
+				font-family: Bohemian Soul;
+				margin-bottom: 25px;
+				font-size: 18px;
+			}
+			h6 {
+				color: #ffffff;
+				font-family: 'Poppins', sans-serif;
+			}
+		}
+	}
+	.grupo-2 {
+		background-color: #2d0a16;
+		padding: 15px 10px;
+		text-align: center;
+		color: #ffffff;
+	}
+}
+@media screen and (max-widht: 667px){
+    .pie-pagina .grupo-1{
+        width: 80%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px;
+        padding: 35px 0px;
+    }
+}
+.pie-pagina2 {
+	width: 100%;
+	background-color: #340c1a;
+	margin-top: 33rem;
+	.grupo-1 {
+		width: 100%;
+		max-width: 1200px;
+		margin: auto;
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		grid-gap: 50px;
+		padding: 45px 0px;
+		.box {
+			h4 {
+				color: #fea6be;
+				font-family: Bohemian Soul;
+				margin-bottom: 25px;
+				font-size: 18px;
+			}
+			h6 {
+				color: #ffffff;
+				font-family: 'Poppins', sans-serif;
+			}
+		}
+	}
+	.grupo-2 {
+		background-color: #2d0a16;
+		padding: 15px 10px;
+		text-align: center;
+		color: #ffffff;
+	}
+}
